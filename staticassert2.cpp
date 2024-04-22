@@ -14,3 +14,11 @@ class Vector {
 
     T m_values[Size];
 };
+
+int main()
+{
+    Vector<int, 4> four;
+    Vector<short, 2> two;
+
+    return 0;
+}
