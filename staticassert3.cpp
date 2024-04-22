@@ -1,7 +1,15 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
-tempate <class A, class Allocator = std::allocator<T>
-class Vector {
+int main() {
+tempate <class A, class Allocator = std::allocator<A>
 
-};
+vector<int> vector1{1, 2, 3, 4, 5};
+
+cout << "vector1 = ";
+
+// ranged loop
+for (const int& i : vector1) {
+  cout << i << " ";
+}
