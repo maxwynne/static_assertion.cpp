@@ -11,5 +11,5 @@ cout << "vector1 = ";
 
 // ranged loop
 for (const int& i : vector1) {
-  cout << i << " ";
+  cout << i << " "; 
 }
